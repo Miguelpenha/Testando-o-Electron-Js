@@ -1,0 +1,23 @@
+{
+  "name": "Testando-o-Electron-Js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Miguelpenha/Testando-o-Electron-Js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Miguelpenha/Testando-o-Electron-Js/issues"
+  },
+  "homepage": "https://github.com/Miguelpenha/Testando-o-Electron-Js#readme",
+  "devDependencies": {
+    "electron": "^11.2.3"
+  }
+}
