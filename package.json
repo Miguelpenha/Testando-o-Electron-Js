@@ -1,0 +1,60 @@
+{
+  "name": "Testando-o-Electron-Js",
+  "version": "1.0.0",
+  "description": "Estou Testando o Electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "make": "electron-forge make",
+    "package": "electron-forge package"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Miguelpenha/Testando-o-Electron-Js.git"
+  },
+  "keywords": [],
+  "author": "Miguel da Penha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Miguelpenha/Testando-o-Electron-Js/issues"
+  },
+  "homepage": "https://github.com/Miguelpenha/Testando-o-Electron-Js#readme",
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.0"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^6.0.0-beta.54",
+    "@electron-forge/maker-deb": "^6.0.0-beta.54",
+    "@electron-forge/maker-rpm": "^6.0.0-beta.54",
+    "@electron-forge/maker-squirrel": "^6.0.0-beta.54",
+    "@electron-forge/maker-zip": "^6.0.0-beta.54",
+    "electron": "^11.2.3"
+  },
+  "config": {
+    "forge": {
+      "packagerConfig": {},
+      "makers": [
+        {
+          "name": "@electron-forge/maker-squirrel",
+          "config": {
+            "name": "Testando_o_Electron_Js"
+          }
+        },
+        {
+          "name": "@electron-forge/maker-zip",
+          "platforms": [
+            "darwin"
+          ]
+        },
+        {
+          "name": "@electron-forge/maker-deb",
+          "config": {}
+        },
+        {
+          "name": "@electron-forge/maker-rpm",
+          "config": {}
+        }
+      ]
+    }
+  }
+}
